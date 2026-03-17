@@ -1,5 +1,7 @@
 # MiniText - Editor de Texto em C (CLI)
 
+Este projeto está sendo realizado para aprimorar minhas habilidades na linguagem C
+
 ## Escopo do MVP
 
 O projeto consiste em um editor de texto em terminal.  
@@ -43,3 +45,9 @@ O usuário escreve e edita conteúdo por linhas, podendo salvar e abrir arquivos
     - line: Estrutura de dados das linhas
     - fileio: Responsável por ler/escrever no arquivo
     - stack: Concederá suporte a undo/redo
+
+    #Dentro do editor.h fiz a utilização do 'include guard', que é uma proteção no arquivo .h, que evita que ele seja incluído duas vezes na compilação, evitando erros de redefinição de struct e redefinição de função/typedef
+    #Continuando no editor.h, dentro do guard, escrevi, um tipo Document mínimo, structs simples para que o projeto ao menos compile no momento. Após isso, escrevi os protótipos das funções
+
+    
+    
